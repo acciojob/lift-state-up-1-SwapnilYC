@@ -8,7 +8,7 @@ const Child = ({modal, modalHandler}) => {
             <button onClick={modalHandler}>Show Modal</button>
             {modal && (
                 <>
-                <h3>Modal content</h3>
+                <h3>Modal Content</h3>
                 <p>This is modal content.</p>
                 </>
             )}
